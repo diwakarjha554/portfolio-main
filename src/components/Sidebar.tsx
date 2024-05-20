@@ -14,8 +14,8 @@ const Sidebar = () => {
         <span className="text-lg">Full Stack Software Developer</span>
         <span>I specialize in crafting flawless digital interfaces, prioritizing precision, engagement, and accessibility to ensure a seamless and inclusive user experience.</span>
 
-        <div className="hidden lg:flex mt-12">
-          links
+        <div className="hidden lg:flex flex-col gap-2 mt-12">
+          
         </div>
       </div>
 

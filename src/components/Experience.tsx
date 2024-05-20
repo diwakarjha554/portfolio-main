@@ -4,7 +4,7 @@
 
 const Experience = () => {
     return (
-        <div className="flex flex-col gap-7">
+        <div className="flex flex-col gap-7" id="experience">
             <div className="lg:hidden flex items-center gap-5">
                 <div className="w-10 h-1 bg-white rounded"></div>
                 <span className="font-[600] text-xl">EXPERIENCE</span>
