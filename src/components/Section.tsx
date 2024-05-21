@@ -3,14 +3,17 @@
 interface SectionProps {
     children: React.ReactNode;
     className?: string;
+    id?: string;
 }
 
 const Section: React.FC<SectionProps> = ({
     children,
-    className
+    className,
+    id
 }) => {
     return (
         <section
+            id={id}
             className={`
             ${className}
         `}

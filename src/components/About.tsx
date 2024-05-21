@@ -1,16 +1,19 @@
 'use client';
 
+import Section from "./Section";
+
 
 
 const About = () => {
   return (
-    <div className="flex flex-col gap-7">
-      <div className="lg:hidden flex items-center gap-5">
-        <div className="w-10 h-1 bg-white rounded"></div>
-        <span className="font-[600] text-xl">ABOUT</span>
+    <Section id="about" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
+      <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+        <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">About</h2>
       </div>
-      <p>This is about my self Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, numquam, voluptatum, nulla architecto et omnis impedit quos odit similique eaque adipisci! Vero rem fugit corporis nemo delectus quibusdam, recusandae laborum tempore nam minima, labore quisquam iure unde itaque debitis obcaecati aliquid perferendis maiores! Dolorum voluptatum omnis architecto exercitationem sequi sed?</p>
-    </div>
+      <div>
+        <p className="mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem consectetur temporibus quos ad quam ex vero, et maxime eligendi explicabo qui corporis ducimus. Quasi non repudiandae, voluptatem dolor dolorem praesentium ullam magni sit id vel architecto deserunt quas, fugit, officia ipsam dolorum hic alias enim cumque cupiditate mollitia est excepturi labore. Delectus voluptatem fugiat tenetur est quod pariatur quis quae libero tempore, harum eos ut, aliquam autem cum officiis facere. Aliquam voluptate quidem consequuntur adipisci illum unde laborum repudiandae voluptatem magni quis suscipit cum nihil labore tempore praesentium hic deleniti et vel recusandae, nostrum eius quia. Omnis quod quae quaerat!</p>
+      </div>
+    </Section>
   )
 }
 

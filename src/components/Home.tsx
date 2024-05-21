@@ -9,7 +9,7 @@ import Section from "@/components/Section";
 const Home = () => {
   return (
     <Section>
-      <Container className="">
+      <Container className="lg:flex lg:justify-between lg:gap-4">
         <Sidebar />
         <Content />
       </Container>

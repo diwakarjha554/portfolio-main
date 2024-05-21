@@ -18,6 +18,9 @@ const Container: React.FC<ContainerProps> = ({
             xl:px-20
             md:px-10
             px-5
+            py-12
+            md:py-20
+            lg:py-0
         `}
         >
             {children}

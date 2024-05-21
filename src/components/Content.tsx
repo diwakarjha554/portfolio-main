@@ -2,14 +2,16 @@
 
 import About from "@/components/About";
 import Experience from "@/components/Experience";
-import Skills from "./Skills";
+import Skills from "@/components/Skills";
+import Contact from "@/components/Contact";
 
 const Content = () => {
   return (
-    <div className="pt-24 lg:py-24 lg:h-screen lg:max-w-[650px] lg:ml-[550px] flex flex-col gap-24">
-      <About/>
-      <Skills/>
-      <Experience/>
+    <div className="pt-24 lg:w-1/2 lg:py-24">
+      <About />
+      <Skills />
+      <Experience />
+      <Contact />
     </div>
   )
 }
