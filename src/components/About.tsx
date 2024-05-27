@@ -1,6 +1,6 @@
 'use client';
 
-import Section from "./Section";
+import Section from "@/components/Section";
 
 
 
@@ -15,10 +15,10 @@ const About = () => {
           I craft user-friendly travel experiences at <span className="text-white font-[500]">Travel Trail Holidays</span>.  Leveraging Next.js, MongoDB, Node.js, and Express.js, I build accessible and sustainable travel booking platforms. My prior experience with Django, Python, and JavaScript ensures I can adapt across technologies.
         </p>
         <p>
-          But code is just a tool. I'm driven by a passion to create positive change.  I actively seek opportunities to contribute meaningful features within the travel industry, like accessibility options or highlighting eco-friendly travel choices. My goal is to make travel not just seamless, but also inclusive and sustainable.
+          But code is just a tool. I&apos;m driven by a passion to create positive change. I actively seek opportunities to contribute meaningful features within the travel industry, like accessibility options or highlighting eco-friendly travel choices. My goal is to make travel not just seamless, but also inclusive and sustainable.
         </p>
         <p>
-          This dedication extends beyond Travel Trail Holidays. I contribute to open-source projects and explore freelance work for social impact organizations. My ultimate goal is to use technology as a bridge to a better future, and I'm constantly seeking ways to leverage my expertise for the greater good.
+          This dedication extends beyond Travel Trail Holidays. I contribute to open-source projects and explore freelance work for social impact organizations. My ultimate goal is to use technology as a bridge to a better future, and I&apos;m constantly seeking ways to leverage my expertise for the greater good.
         </p>
       </div>
     </Section>
